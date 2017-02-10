@@ -15,7 +15,6 @@ import com.pengrad.telegrambot.response.SendResponse;
 public class NewCultistBot {
 	
 	private static final String botToken = "305480759:AAFj6LyL5an1bzveCYNtjW2H7hPPO_QDzBI";
-	private static long chatId = -219225709;
 	public static void main(String[] args) {
 		final TelegramBot bot = TelegramBotAdapter.build(botToken);
 		
